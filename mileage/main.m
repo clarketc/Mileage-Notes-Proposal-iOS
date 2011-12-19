@@ -2,8 +2,8 @@
 //  main.m
 //  mileage
 //
-//  Created by Chris Clarke on 11/11/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Created by Chris Clarke on 11/10/11.
+//  Copyright (c) 2011 Freehand LLC. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -16,3 +16,4 @@ int main(int argc, char *argv[])
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
+

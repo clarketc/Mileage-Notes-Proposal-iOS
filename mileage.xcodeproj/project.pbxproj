@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970904D0146F42C100C0F35C /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 970904CF146F42C100C0F35C /* about.png */; };
+		970904D3146F42CC00C0F35C /* logs.png in Resources */ = {isa = PBXBuildFile; fileRef = 970904D2146F42CC00C0F35C /* logs.png */; };
+		970904D5146F42F600C0F35C /* log.png in Resources */ = {isa = PBXBuildFile; fileRef = 970904D4146F42F600C0F35C /* log.png */; };
+		970904D7146F455900C0F35C /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = 970904D6146F455900C0F35C /* email.png */; };
+		970904DE146F4C8300C0F35C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970904DD146F4C8300C0F35C /* CoreData.framework */; };
+		970904E1146F4D4400C0F35C /* logModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 970904DF146F4D4400C0F35C /* logModel.xcdatamodeld */; };
+		97320EFD14707EAE004409F8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 97320EFC14707EAE004409F8 /* User.m */; };
+		97320F0014707EAF004409F8 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 97320EFF14707EAF004409F8 /* Test.m */; };
+		975542A6147233AF004DFEFD /* MileageLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 975542A5147233AF004DFEFD /* MileageLog.m */; };
+		975542AA14723FB5004DFEFD /* logCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 975542A914723FB4004DFEFD /* logCell.m */; };
+		977DA324146F3EBD00430801 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 977DA323146F3EBD00430801 /* mail.png */; };
+		977DA326146F41E900430801 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 977DA325146F41E900430801 /* settings.png */; };
+		978042F5146D9230008B9E6C /* mileage-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 978042E9146D9230008B9E6C /* mileage-Info.plist */; };
+		978042F8146D9230008B9E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 978042F0146D9230008B9E6C /* ViewController.m */; };
+		978042FF146D9287008B9E6C /* Splash.m in Sources */ = {isa = PBXBuildFile; fileRef = 978042FE146D9287008B9E6C /* Splash.m */; };
+		97804302146D92E6008B9E6C /* ViewLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 97804301146D92E6008B9E6C /* ViewLog.m */; };
+		97804305146D92F7008B9E6C /* ViewLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 97804304146D92F7008B9E6C /* ViewLogEntry.m */; };
+		9780430E146D94F6008B9E6C /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780430D146D94F6008B9E6C /* Settings.m */; };
+		97804310146DC5AA008B9E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9780430F146DC5AA008B9E6C /* main.m */; };
 		97955BD7146D831700BF93F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97955BD6146D831700BF93F4 /* UIKit.framework */; };
 		97955BD9146D831700BF93F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97955BD8146D831700BF93F4 /* Foundation.framework */; };
 		97955BDB146D831700BF93F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97955BDA146D831700BF93F4 /* CoreGraphics.framework */; };
 		97955BE1146D831700BF93F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97955BDF146D831700BF93F4 /* InfoPlist.strings */; };
-		97955BE3146D831700BF93F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97955BE2146D831700BF93F4 /* main.m */; };
 		97955BE7146D831700BF93F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97955BE6146D831700BF93F4 /* AppDelegate.m */; };
 		97955BEA146D831800BF93F4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97955BE8146D831700BF93F4 /* MainStoryboard_iPhone.storyboard */; };
-		97955BED146D831800BF93F4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97955BEB146D831800BF93F4 /* MainStoryboard_iPad.storyboard */; };
-		97955BF0146D831800BF93F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97955BEF146D831800BF93F4 /* ViewController.m */; };
 		97955BF8146D831800BF93F4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97955BF7146D831800BF93F4 /* SenTestingKit.framework */; };
 		97955BF9146D831800BF93F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97955BD6146D831700BF93F4 /* UIKit.framework */; };
 		97955BFA146D831800BF93F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97955BD8146D831700BF93F4 /* Foundation.framework */; };
 		97955C02146D831800BF93F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97955C00146D831800BF93F4 /* InfoPlist.strings */; };
 		97955C05146D831800BF93F4 /* mileageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97955C04146D831800BF93F4 /* mileageTests.m */; };
+		97A75411148139B100EC2617 /* 1815-regency-proposal-woodcut.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97A75410148139B100EC2617 /* 1815-regency-proposal-woodcut.gif */; };
+		97AD1FAE146EEE390008ED95 /* logIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AD1FAD146EEE390008ED95 /* logIt.m */; };
+		97B57DB7147F4E9700A913E6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B57DB6147F4E9700A913E6 /* MessageUI.framework */; };
+		97C5D06A146ED78C00F1E90D /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C5D069146ED78B00F1E90D /* About.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,26 +54,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		970904CF146F42C100C0F35C /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		970904D2146F42CC00C0F35C /* logs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logs.png; sourceTree = "<group>"; };
+		970904D4146F42F600C0F35C /* log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log.png; sourceTree = "<group>"; };
+		970904D6146F455900C0F35C /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		970904DD146F4C8300C0F35C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		970904E0146F4D4400C0F35C /* logModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = logModel.xcdatamodel; sourceTree = "<group>"; };
+		97320EFB14707EAE004409F8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		97320EFC14707EAE004409F8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		97320EFE14707EAF004409F8 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		97320EFF14707EAF004409F8 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		975542A4147233AF004DFEFD /* MileageLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MileageLog.h; sourceTree = "<group>"; };
+		975542A5147233AF004DFEFD /* MileageLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MileageLog.m; sourceTree = "<group>"; };
+		975542A814723FB4004DFEFD /* logCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logCell.h; sourceTree = "<group>"; };
+		975542A914723FB4004DFEFD /* logCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logCell.m; sourceTree = "<group>"; };
+		977DA323146F3EBD00430801 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		977DA325146F41E900430801 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		978042E9146D9230008B9E6C /* mileage-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mileage-Info.plist"; sourceTree = "<group>"; };
+		978042EA146D9230008B9E6C /* mileage-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mileage-Prefix.pch"; sourceTree = "<group>"; };
+		978042F0146D9230008B9E6C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		978042FD146D9287008B9E6C /* Splash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Splash.h; sourceTree = "<group>"; };
+		978042FE146D9287008B9E6C /* Splash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Splash.m; sourceTree = "<group>"; };
+		97804300146D92E6008B9E6C /* ViewLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLog.h; sourceTree = "<group>"; };
+		97804301146D92E6008B9E6C /* ViewLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLog.m; sourceTree = "<group>"; };
+		97804303146D92F7008B9E6C /* ViewLogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewLogEntry.h; sourceTree = "<group>"; };
+		97804304146D92F7008B9E6C /* ViewLogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewLogEntry.m; sourceTree = "<group>"; };
+		9780430C146D94F6008B9E6C /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		9780430D146D94F6008B9E6C /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		9780430F146DC5AA008B9E6C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97804311146DC638008B9E6C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		97955BD2146D831700BF93F4 /* mileage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mileage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97955BD6146D831700BF93F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		97955BD8146D831700BF93F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		97955BDA146D831700BF93F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		97955BDE146D831700BF93F4 /* mileage-Info.plist */ = {isa = PBXFileReference; path = "mileage-Info.plist"; sourceTree = "<group>"; };
+		97955BDE146D831700BF93F4 /* mileage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mileage-Info.plist"; sourceTree = "<group>"; };
 		97955BE0146D831700BF93F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		97955BE2146D831700BF93F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		97955BE4146D831700BF93F4 /* mileage-Prefix.pch */ = {isa = PBXFileReference; path = "mileage-Prefix.pch"; sourceTree = "<group>"; };
-		97955BE5146D831700BF93F4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		97955BE4146D831700BF93F4 /* mileage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mileage-Prefix.pch"; sourceTree = "<group>"; };
+		97955BE5146D831700BF93F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		97955BE6146D831700BF93F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		97955BE9146D831800BF93F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		97955BEC146D831800BF93F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		97955BEE146D831800BF93F4 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		97955BEF146D831800BF93F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		97955BF6146D831800BF93F4 /* mileageTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mileageTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97955BF7146D831800BF93F4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		97955BFF146D831800BF93F4 /* mileageTests-Info.plist */ = {isa = PBXFileReference; path = "mileageTests-Info.plist"; sourceTree = "<group>"; };
+		97955BFF146D831800BF93F4 /* mileageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mileageTests-Info.plist"; sourceTree = "<group>"; };
 		97955C01146D831800BF93F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		97955C03146D831800BF93F4 /* mileageTests.h */ = {isa = PBXFileReference; path = mileageTests.h; sourceTree = "<group>"; };
+		97955C03146D831800BF93F4 /* mileageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mileageTests.h; sourceTree = "<group>"; };
 		97955C04146D831800BF93F4 /* mileageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mileageTests.m; sourceTree = "<group>"; };
+		97A75410148139B100EC2617 /* 1815-regency-proposal-woodcut.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "1815-regency-proposal-woodcut.gif"; sourceTree = "<group>"; };
+		97AD1FAC146EEE390008ED95 /* logIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logIt.h; sourceTree = "<group>"; };
+		97AD1FAD146EEE390008ED95 /* logIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logIt.m; sourceTree = "<group>"; };
+		97B57DB6147F4E9700A913E6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		97C5D068146ED78B00F1E90D /* About.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
+		97C5D069146ED78B00F1E90D /* About.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B57DB7147F4E9700A913E6 /* MessageUI.framework in Frameworks */,
+				970904DE146F4C8300C0F35C /* CoreData.framework in Frameworks */,
 				97955BD7146D831700BF93F4 /* UIKit.framework in Frameworks */,
 				97955BD9146D831700BF93F4 /* Foundation.framework in Frameworks */,
 				97955BDB146D831700BF93F4 /* CoreGraphics.framework in Frameworks */,
@@ -80,9 +133,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97320ED614703399004409F8 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				975542A4147233AF004DFEFD /* MileageLog.h */,
+				975542A5147233AF004DFEFD /* MileageLog.m */,
+				970904DF146F4D4400C0F35C /* logModel.xcdatamodeld */,
+				97320EFE14707EAF004409F8 /* Test.h */,
+				97320EFF14707EAF004409F8 /* Test.m */,
+				97320EFB14707EAE004409F8 /* User.h */,
+				97320EFC14707EAE004409F8 /* User.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		977DA321146F3EAE00430801 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				97A75410148139B100EC2617 /* 1815-regency-proposal-woodcut.gif */,
+				970904D6146F455900C0F35C /* email.png */,
+				970904D4146F42F600C0F35C /* log.png */,
+				970904D2146F42CC00C0F35C /* logs.png */,
+				970904CF146F42C100C0F35C /* about.png */,
+				977DA325146F41E900430801 /* settings.png */,
+				977DA323146F3EBD00430801 /* mail.png */,
+			);
+			name = graphics;
+			sourceTree = "<group>";
+		};
 		97955BC7146D831700BF93F4 = {
 			isa = PBXGroup;
 			children = (
+				97B57DB6147F4E9700A913E6 /* MessageUI.framework */,
 				97955BDC146D831700BF93F4 /* mileage */,
 				97955BFD146D831800BF93F4 /* mileageTests */,
 				97955BD5146D831700BF93F4 /* Frameworks */,
@@ -102,6 +184,7 @@
 		97955BD5146D831700BF93F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				970904DD146F4C8300C0F35C /* CoreData.framework */,
 				97955BD6146D831700BF93F4 /* UIKit.framework */,
 				97955BD8146D831700BF93F4 /* Foundation.framework */,
 				97955BDA146D831700BF93F4 /* CoreGraphics.framework */,
@@ -113,13 +196,30 @@
 		97955BDC146D831700BF93F4 /* mileage */ = {
 			isa = PBXGroup;
 			children = (
+				977DA321146F3EAE00430801 /* graphics */,
+				978042FD146D9287008B9E6C /* Splash.h */,
+				978042FE146D9287008B9E6C /* Splash.m */,
 				97955BE5146D831700BF93F4 /* AppDelegate.h */,
 				97955BE6146D831700BF93F4 /* AppDelegate.m */,
+				978042E9146D9230008B9E6C /* mileage-Info.plist */,
+				978042EA146D9230008B9E6C /* mileage-Prefix.pch */,
+				97804311146DC638008B9E6C /* ViewController.h */,
+				978042F0146D9230008B9E6C /* ViewController.m */,
 				97955BE8146D831700BF93F4 /* MainStoryboard_iPhone.storyboard */,
-				97955BEB146D831800BF93F4 /* MainStoryboard_iPad.storyboard */,
-				97955BEE146D831800BF93F4 /* ViewController.h */,
-				97955BEF146D831800BF93F4 /* ViewController.m */,
+				97AD1FAC146EEE390008ED95 /* logIt.h */,
+				97AD1FAD146EEE390008ED95 /* logIt.m */,
+				97C5D068146ED78B00F1E90D /* About.h */,
+				97C5D069146ED78B00F1E90D /* About.m */,
 				97955BDD146D831700BF93F4 /* Supporting Files */,
+				97804303146D92F7008B9E6C /* ViewLogEntry.h */,
+				97804304146D92F7008B9E6C /* ViewLogEntry.m */,
+				97804300146D92E6008B9E6C /* ViewLog.h */,
+				97804301146D92E6008B9E6C /* ViewLog.m */,
+				975542A814723FB4004DFEFD /* logCell.h */,
+				975542A914723FB4004DFEFD /* logCell.m */,
+				97320ED614703399004409F8 /* models */,
+				9780430C146D94F6008B9E6C /* Settings.h */,
+				9780430D146D94F6008B9E6C /* Settings.m */,
 			);
 			path = mileage;
 			sourceTree = "<group>";
@@ -127,9 +227,9 @@
 		97955BDD146D831700BF93F4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9780430F146DC5AA008B9E6C /* main.m */,
 				97955BDE146D831700BF93F4 /* mileage-Info.plist */,
 				97955BDF146D831700BF93F4 /* InfoPlist.strings */,
-				97955BE2146D831700BF93F4 /* main.m */,
 				97955BE4146D831700BF93F4 /* mileage-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -226,7 +326,14 @@
 			files = (
 				97955BE1146D831700BF93F4 /* InfoPlist.strings in Resources */,
 				97955BEA146D831800BF93F4 /* MainStoryboard_iPhone.storyboard in Resources */,
-				97955BED146D831800BF93F4 /* MainStoryboard_iPad.storyboard in Resources */,
+				978042F5146D9230008B9E6C /* mileage-Info.plist in Resources */,
+				977DA324146F3EBD00430801 /* mail.png in Resources */,
+				977DA326146F41E900430801 /* settings.png in Resources */,
+				970904D0146F42C100C0F35C /* about.png in Resources */,
+				970904D3146F42CC00C0F35C /* logs.png in Resources */,
+				970904D5146F42F600C0F35C /* log.png in Resources */,
+				970904D7146F455900C0F35C /* email.png in Resources */,
+				97A75411148139B100EC2617 /* 1815-regency-proposal-woodcut.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +368,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97955BE3146D831700BF93F4 /* main.m in Sources */,
 				97955BE7146D831700BF93F4 /* AppDelegate.m in Sources */,
-				97955BF0146D831800BF93F4 /* ViewController.m in Sources */,
+				978042F8146D9230008B9E6C /* ViewController.m in Sources */,
+				978042FF146D9287008B9E6C /* Splash.m in Sources */,
+				97804302146D92E6008B9E6C /* ViewLog.m in Sources */,
+				97804305146D92F7008B9E6C /* ViewLogEntry.m in Sources */,
+				9780430E146D94F6008B9E6C /* Settings.m in Sources */,
+				97804310146DC5AA008B9E6C /* main.m in Sources */,
+				97C5D06A146ED78C00F1E90D /* About.m in Sources */,
+				97AD1FAE146EEE390008ED95 /* logIt.m in Sources */,
+				970904E1146F4D4400C0F35C /* logModel.xcdatamodeld in Sources */,
+				97320EFD14707EAE004409F8 /* User.m in Sources */,
+				97320F0014707EAF004409F8 /* Test.m in Sources */,
+				975542A6147233AF004DFEFD /* MileageLog.m in Sources */,
+				975542AA14723FB5004DFEFD /* logCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +420,6 @@
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		97955BEB146D831800BF93F4 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97955BEC146D831800BF93F4 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		97955C00146D831800BF93F4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,7 +437,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Clarke (6ZR75ME7ZN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Clarke (6ZR75ME7ZN)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -342,8 +453,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "AF13D8C3-6A16-4324-B279-BEB14983BED2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF13D8C3-6A16-4324-B279-BEB14983BED2";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,7 +466,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chris Clarke (6ZR75ME7ZN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Chris Clarke (6ZR75ME7ZN)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -362,8 +476,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "AF13D8C3-6A16-4324-B279-BEB14983BED2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AF13D8C3-6A16-4324-B279-BEB14983BED2";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -374,7 +490,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mileage/mileage-Prefix.pch";
 				INFOPLIST_FILE = "mileage/mileage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -385,7 +503,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mileage/mileage-Prefix.pch";
 				INFOPLIST_FILE = "mileage/mileage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -443,6 +563,7 @@
 				97955C0A146D831800BF93F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97955C0B146D831800BF93F4 /* Build configuration list for PBXNativeTarget "mileageTests" */ = {
 			isa = XCConfigurationList;
@@ -451,8 +572,22 @@
 				97955C0D146D831800BF93F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		970904DF146F4D4400C0F35C /* logModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				970904E0146F4D4400C0F35C /* logModel.xcdatamodel */,
+			);
+			currentVersion = 970904E0146F4D4400C0F35C /* logModel.xcdatamodel */;
+			path = logModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 97955BC9146D831700BF93F4 /* Project object */;
 }
